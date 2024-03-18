@@ -1,0 +1,28 @@
+.form__title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    margin-bottom: 72px;
+    align-self: start;
+}
+
+.form__title .link{
+    align-self: start;
+}
+
+.input__title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 72px;
+}
+
+.page__title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+}
+
+/* .page__title .link{
+    display: none;
+} */

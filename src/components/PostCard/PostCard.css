@@ -1,0 +1,133 @@
+.small{
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 40px;
+}
+
+.average{
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 40px;
+}
+
+.big{
+    width: 736px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 40px;
+}
+
+.big .card-wrapper{
+    display: flex;
+    gap: 32px;
+}
+
+.average .card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.small .card-wrapper{
+    display: flex;
+    gap: 34px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.big .card-info{
+    width: 448px;
+}
+
+.small .card-info{
+    width: 222px;
+}
+
+.average .card-info{
+    order: 0;
+}
+
+.card-info__title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.big .card-info__title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.card-info__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8D8E97;
+    margin-bottom: 31px;
+}
+
+.small .card-info__description, .average .card-info__description{
+    display: none;
+}
+
+.card-img{
+    background-image: url(https://imgtest.mir24.tv/uploaded/images/crops/2021/April/870x489_0x1_detail_crop_20210409185625_918e2980_49eff996b08c5cdb5f44966d2b8764005ddcd2c0e961a33af218bad4d21dc5fd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-color: rgb(109, 108, 108); */
+}
+
+.big .card-img{
+    width: 256px;
+    height: 244px;
+}
+
+.small .card-img{
+    width: 96px;
+    height: 96px;
+}
+
+.average .card-img{
+    order: -1;
+    width: 352px;
+    height: 246px;
+}
+
+.card-info__date{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8E97;
+    margin-bottom: 8px;
+}
+.card-icons{
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    align-items: center;
+}
+.card-icons-grade{
+    display: flex;
+    gap: 30px;
+}
+.card-icons-options{
+    display: flex;
+    gap: 30px;
+}
+
+.card-icons-grade-like, .card-icons-grade-dislike, .card-icons-options-bookmark, .card-icons-options-ellipsis{
+    width: 22px;
+    height: 22px;
+    font-size: 24px;
+}

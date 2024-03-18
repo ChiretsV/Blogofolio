@@ -1,0 +1,88 @@
+.header{
+    width: 100%;
+    background-color: #2231AA;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+}
+
+.header-burger{
+    width: 84px;
+    height: 84px;
+    border-right: 1px solid #5360CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-burger-icon{
+    width: 24px;
+    height: 24px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.header-search-profile{
+    display: flex;
+    z-index: 1;
+}
+
+.header-search{
+    align-self: self-end;
+    width: 84px;
+    height: 84px;
+    border-left: 1px solid #5360CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.header-search-icon{
+    width: 24px;
+    height: 24px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.header-profile{
+    width: 84px;
+    height: 84px;
+    border-left: 1px solid #5360CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.header-profile-icon{
+    width: 24px;
+    height: 24px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.header-burger:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.header-profile:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.header-search:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}

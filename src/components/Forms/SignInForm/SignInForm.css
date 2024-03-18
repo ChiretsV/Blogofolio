@@ -1,0 +1,29 @@
+.sign-in-inputs{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.sign-in-form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sign-in-link{
+    display: flex;
+    margin: 0 auto;
+}
+
+.passwd-link{
+    align-self: start;
+    margin-bottom: 48px;
+}
+
+.sign-in-link .link{
+    margin-left: 5px;
+    line-height: 20px;
+    color: blue;
+}
