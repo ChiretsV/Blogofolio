@@ -60,6 +60,7 @@
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 24px;
+    text-decoration: none;
 }
 
 .big .card-info__title{
@@ -74,6 +75,7 @@
     line-height: 28px;
     color: #8D8E97;
     margin-bottom: 31px;
+    text-decoration: none;
 }
 
 .small .card-info__description, .average .card-info__description{
@@ -130,4 +132,13 @@
     width: 22px;
     height: 22px;
     font-size: 24px;
+}
+
+*:visited {
+    text-decoration: none;
+    color: inherit; 
+   }
+
+a:hover, a:focus{
+    opacity: 0.7;
 }

@@ -1,0 +1,85 @@
+.add-post-form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #F3F3F3;
+}
+
+.add-post-title-wrapper .input{
+    width: 100%;
+}
+
+.add-post-lesson-image-wrapper{
+    width: 100%;
+    display: flex;
+    gap: 33px;
+}
+
+.add-post-lesson-wrapper{
+    height: 84px;
+}
+
+.add-post-image-wrapper{
+    height: 84px;
+}
+
+.add-post-image-wrapper .submit{
+    background-color: #F3F3F3;
+    color: black;
+    width: 165px;
+    height: 52px;
+    position: relative;
+    top: -54px;
+    right: -377px;
+    padding: 0;
+}
+
+.add-post-description-wrapper .input{
+    width: 100%;
+}
+
+.add-post-text-wrapper .input{
+    width: 100%;
+}
+
+.add-post-buttons-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-post-buttons-wrapper-left .submit{
+    width: 100px;
+    padding: 0;
+    background-color: transparent;
+    color: #FD3419;
+    font-weight: 500;
+}
+
+.add-post-buttons-wrapper-right{
+    display: flex;
+    gap: 24px;
+}
+
+.add-post-buttons-wrapper-right .submit{
+    background-color: #E8E8E8;
+    color: black;
+    width: 125px;
+    padding: 0;
+    font-weight: 600;
+}
+
+.add-post-buttons-wrapper-right .submit:last-child{
+    color: white;
+    background-color: #2231AA;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+  }

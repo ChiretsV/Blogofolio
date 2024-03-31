@@ -1,7 +1,7 @@
 import './SignUpForm.css';
 import Button from '../../Button/Button';
 import Input from '../../Input/Input';
-import Link from '../../Link/Link';
+import MyLink from '../../MyLink/MyLink';
 import Text from '../../Text/Text';
 
 function SignUpForm() {
@@ -18,7 +18,7 @@ function SignUpForm() {
             </form> 
             <div className="link">
                 <Text type='help'>Already have an account?</Text>
-                <Link>Sign In</Link>
+                <MyLink>Sign In</MyLink>
             </div>
         </div>
      );

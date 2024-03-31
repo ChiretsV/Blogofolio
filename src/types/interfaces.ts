@@ -21,6 +21,13 @@ export interface IText {
     type: string;
 }
 
-export interface ILink{
+export interface IMyLink{
     children: string;
+}
+
+export interface IObj{
+    id: number;
+    title: string;
+    image: string;
+    description: string;
 }

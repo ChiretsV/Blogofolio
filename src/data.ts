@@ -1,0 +1,123 @@
+export const data = [
+    {
+        id: 1,
+        title:	"New space missions",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/11/410d5d8cae01ba8fc6ec18d93598369d.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "In 2024, we will witness the launch of a much larger number of new interplanetary missions than in the past year 2023. They will go to different parts of the solar system. The most ambitious of these is the Europa Clipper . Its goal will be Europa, an icy satellite of Jupiter, beneath the surface of which lies a huge ocean. NASA plans to launch this device in October 2024.",
+    },
+    {
+        id: 2,
+        title:	"Manned spaceflight",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/11/410d5d8cae01ba8fc6ec18d93598369d.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "The New Year will be very full of interesting events in manned space exploration, three of which are scheduled to take place in the spring. One of them will be the launch of Polaris Dawn, the first-ever private mission to enter outer space. Its success could be an important building block on the path to more complex private flights, one of which may be to service the Hubble telescope.",
+    },
+    {
+        id: 3,
+        title:	"Flights of new rockets",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/06/52959408252_bb2d9e39a5_k-1536x1024.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "2024 should also be the year when we will see the launches of a number of new rockets, which should replace the retired carriers. One of them is Vulcan, created by launch operator ULA. It will replace the Atlas V. The first flight of the Vulcan should take place in January.",
+    },
+    {
+        id: 4,
+        title:	"Events on interplanetary routes",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2021/12/522_00_1280.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "The BepiColombo probe will visit Mercury twice in September and December. These maneuvers are necessary in order to reduce its orbital speed, which will allow it to enter a permanent orbit around the first planet in the future. The JUICE and Lucy spacecraft heading towards Jupiter and its Trojan asteroids will also perform gravity assist maneuvers - only they will use the Earth for this. Their meetings with our planet will take place in August and December 2024, respectively.",
+    },
+    {
+        id: 5,
+        title:	"New space missions",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/11/410d5d8cae01ba8fc6ec18d93598369d.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "In 2024, we will witness the launch of a much larger number of new interplanetary missions than in the past year 2023. They will go to different parts of the solar system. The most ambitious of these is the Europa Clipper . Its goal will be Europa, an icy satellite of Jupiter, beneath the surface of which lies a huge ocean. NASA plans to launch this device in October 2024.",
+    },
+    {
+        id: 6,
+        title:	"Manned spaceflight",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/11/410d5d8cae01ba8fc6ec18d93598369d.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "The New Year will be very full of interesting events in manned space exploration, three of which are scheduled to take place in the spring. One of them will be the launch of Polaris Dawn, the first-ever private mission to enter outer space. Its success could be an important building block on the path to more complex private flights, one of which may be to service the Hubble telescope.",
+    },
+    {
+        id: 7,
+        title:	"Flights of new rockets",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/06/52959408252_bb2d9e39a5_k-1536x1024.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "2024 should also be the year when we will see the launches of a number of new rockets, which should replace the retired carriers. One of them is Vulcan, created by launch operator ULA. It will replace the Atlas V. The first flight of the Vulcan should take place in January.",
+    },
+    {
+        id: 8,
+        title:	"Events on interplanetary routes",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2021/12/522_00_1280.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "The BepiColombo probe will visit Mercury twice in September and December. These maneuvers are necessary in order to reduce its orbital speed, which will allow it to enter a permanent orbit around the first planet in the future. The JUICE and Lucy spacecraft heading towards Jupiter and its Trojan asteroids will also perform gravity assist maneuvers - only they will use the Earth for this. Their meetings with our planet will take place in August and December 2024, respectively.",
+    },
+    {
+        id: 9,
+        title:	"New space missions",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/11/410d5d8cae01ba8fc6ec18d93598369d.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "In 2024, we will witness the launch of a much larger number of new interplanetary missions than in the past year 2023. They will go to different parts of the solar system. The most ambitious of these is the Europa Clipper . Its goal will be Europa, an icy satellite of Jupiter, beneath the surface of which lies a huge ocean. NASA plans to launch this device in October 2024.",
+    },
+    {
+        id: 10,
+        title:	"Manned spaceflight",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/11/410d5d8cae01ba8fc6ec18d93598369d.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "The New Year will be very full of interesting events in manned space exploration, three of which are scheduled to take place in the spring. One of them will be the launch of Polaris Dawn, the first-ever private mission to enter outer space. Its success could be an important building block on the path to more complex private flights, one of which may be to service the Hubble telescope.",
+    },
+    {
+        id: 11,
+        title:	"Flights of new rockets",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/06/52959408252_bb2d9e39a5_k-1536x1024.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "2024 should also be the year when we will see the launches of a number of new rockets, which should replace the retired carriers. One of them is Vulcan, created by launch operator ULA. It will replace the Atlas V. The first flight of the Vulcan should take place in January.",
+    },
+    {
+        id: 12,
+        title:	"Events on interplanetary routes",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2021/12/522_00_1280.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "The BepiColombo probe will visit Mercury twice in September and December. These maneuvers are necessary in order to reduce its orbital speed, which will allow it to enter a permanent orbit around the first planet in the future. The JUICE and Lucy spacecraft heading towards Jupiter and its Trojan asteroids will also perform gravity assist maneuvers - only they will use the Earth for this. Their meetings with our planet will take place in August and December 2024, respectively.",
+    },
+    {
+        id: 13,
+        title:	"New space missions",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/11/410d5d8cae01ba8fc6ec18d93598369d.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "In 2024, we will witness the launch of a much larger number of new interplanetary missions than in the past year 2023. They will go to different parts of the solar system. The most ambitious of these is the Europa Clipper . Its goal will be Europa, an icy satellite of Jupiter, beneath the surface of which lies a huge ocean. NASA plans to launch this device in October 2024.",
+    },
+    {
+        id: 14,
+        title:	"Manned spaceflight",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/11/410d5d8cae01ba8fc6ec18d93598369d.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "The New Year will be very full of interesting events in manned space exploration, three of which are scheduled to take place in the spring. One of them will be the launch of Polaris Dawn, the first-ever private mission to enter outer space. Its success could be an important building block on the path to more complex private flights, one of which may be to service the Hubble telescope.",
+    },
+    {
+        id: 15,
+        title:	"Flights of new rockets",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/06/52959408252_bb2d9e39a5_k-1536x1024.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "2024 should also be the year when we will see the launches of a number of new rockets, which should replace the retired carriers. One of them is Vulcan, created by launch operator ULA. It will replace the Atlas V. The first flight of the Vulcan should take place in January.",
+    },
+    {
+        id: 16,
+        title:	"Events on interplanetary routes",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2021/12/522_00_1280.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "The BepiColombo probe will visit Mercury twice in September and December. These maneuvers are necessary in order to reduce its orbital speed, which will allow it to enter a permanent orbit around the first planet in the future. The JUICE and Lucy spacecraft heading towards Jupiter and its Trojan asteroids will also perform gravity assist maneuvers - only they will use the Earth for this. Their meetings with our planet will take place in August and December 2024, respectively.",
+    },
+    {
+        id: 17,
+        title:	"New space missions",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/11/410d5d8cae01ba8fc6ec18d93598369d.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "In 2024, we will witness the launch of a much larger number of new interplanetary missions than in the past year 2023. They will go to different parts of the solar system. The most ambitious of these is the Europa Clipper . Its goal will be Europa, an icy satellite of Jupiter, beneath the surface of which lies a huge ocean. NASA plans to launch this device in October 2024.",
+    },
+    {
+        id: 18,
+        title:	"Manned spaceflight",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/11/410d5d8cae01ba8fc6ec18d93598369d.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "The New Year will be very full of interesting events in manned space exploration, three of which are scheduled to take place in the spring. One of them will be the launch of Polaris Dawn, the first-ever private mission to enter outer space. Its success could be an important building block on the path to more complex private flights, one of which may be to service the Hubble telescope.",
+    },
+    {
+        id: 19,
+        title:	"Flights of new rockets",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2023/06/52959408252_bb2d9e39a5_k-1536x1024.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "2024 should also be the year when we will see the launches of a number of new rockets, which should replace the retired carriers. One of them is Vulcan, created by launch operator ULA. It will replace the Atlas V. The first flight of the Vulcan should take place in January.",
+    },
+    {
+        id: 20,
+        title:	"Events on interplanetary routes",
+        image:	"https://universemagazine-com.translate.goog/wp-content/uploads/2021/12/522_00_1280.jpg?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru",
+        description: "The BepiColombo probe will visit Mercury twice in September and December. These maneuvers are necessary in order to reduce its orbital speed, which will allow it to enter a permanent orbit around the first planet in the future. The JUICE and Lucy spacecraft heading towards Jupiter and its Trojan asteroids will also perform gravity assist maneuvers - only they will use the Earth for this. Their meetings with our planet will take place in August and December 2024, respectively.",
+    },
+
+]

@@ -3,17 +3,18 @@ import { AiOutlineLike } from "react-icons/ai";
 import { AiOutlineDislike } from "react-icons/ai";
 import { FaRegBookmark } from "react-icons/fa";
 import { IoEllipsisHorizontal } from "react-icons/io5";
+import { IObj } from '../../types/interfaces';
 
-function PostCard({size}: {size: string}) {
+function PostCard({size, source}: {size: string, source: IObj}) {
     return ( 
         <div className={size}>
             <div className="card-wrapper">
                 <div className="card-info">
                     <p className="card-info__date">April 20, 2021</p>
-                    <p className="card-info__title">Astronauts prep for new solar arrays on nearly seven-hour spacewalk ...</p>
-                    <p className="card-info__description">Astronauts Kayla Barron and Raja Chari floated out of the International Space Station airlock for a spacewalk Tuesday, installing brackets and struts to support new solar arrays to upgrade the research lab’s power system on the same day that crewmate Mark Vande Hei marked his 341st day in orbit, a U.S. record for a single spaceflight.</p>
+                    <p className="card-info__title">{source.title}</p>
+                    <p className="card-info__description">{source.description}</p>
                 </div>
-                <div className="card-img"></div>
+                <div className="card-img" style={{ backgroundImage: `url(${source.image})` }}></div>
             </div>
             <div className="card-icons">
                 <div className="card-icons-grade">
